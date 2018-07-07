@@ -1,0 +1,5 @@
+SAP SERVER REBOOT 
+
+
+* Requires Ansible 1.2
+* Expects Centos/RHEL 6 hosts

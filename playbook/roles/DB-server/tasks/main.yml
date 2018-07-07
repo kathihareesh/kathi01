@@ -1,0 +1,7 @@
+- name: stop batch jobs
+  systemd: name=crond state=stopped
+- name: Shutdown the  db server
+  systemd: name=db-server state=stopped
+  notify: db-service status
+
+  

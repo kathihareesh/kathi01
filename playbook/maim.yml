@@ -1,0 +1,8 @@
+---
+ # This playbook stop the servers
+ 
+- hosts: all
+  roles:
+    - application-server
+    - DB-server
+    - reboot

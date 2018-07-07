@@ -1,0 +1,4 @@
+---
+- name: application-service status
+  systemd: name=application-server state=status
+
